@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Review HTML</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    .hidden-content {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <br>
+    <h1>Review sobre HTML</h1>
+    <p>Clique em uma das opções abaixo para ver um exemplo:</p>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="toggleSection('section1')">h1 até h6</a></li>
+        <li><a href="#" onclick="toggleSection('section2')">p</a></li>
+        <li><a href="#" onclick="toggleSection('section3')">mark</a></li>
+        <li><a href="#" onclick="toggleSection('section4')">small</a></li>
+        <li><a href="#" onclick="toggleSection('section5')">i</a></li>
+        <li><a href="#" onclick="toggleSection('section6')">u</a></li>
+        <li><a href="#" onclick="toggleSection('section7')">strong</a></li>
+        <li><a href="#" onclick="toggleSection('section8')">ol</a></li>
+        <li><a href="#" onclick="toggleSection('section9')">ul</a></li>
+        <li><a href="#" onclick="toggleSection('section10')">li</a></li>
+        <li><a href="#" onclick="toggleSection('section11')">a</a></li>
+        <li><a href="#" onclick="toggleSection('section12')">hr</a></li>
+        <li><a href="#" onclick="toggleSection('section13')">sub</a></li>
+        <li><a href="#" onclick="toggleSection('section14')">sup</a></li>
+        <li><a href="#" onclick="toggleSection('section15')">blockquote</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="section1" class="hidden-content">
+      <h3>Tag - h1 até h6</h3>
+      <p>
+        São utilizadas para definir cabeçalhos ou títulos, sendo h1 o mais importante e h6 o menos importante.
+        <br><br>
+        Exemplo:
+      </p>
+      <pre>
+        <code>
+          &lt;h1&gt;Exemplo de tag h1&lt;/h1&gt;
+          &lt;h2&gt;Exemplo de tag h2&lt;/h2&gt;
+          &lt;h3&gt;Exemplo de tag h3&lt;/h3&gt;
+          &lt;h4&gt;Exemplo de tag h4&lt;/h4&gt;
+          &lt;h5&gt;Exemplo de tag h5&lt;/h5&gt;
+          &lt;h6&gt;Exemplo de tag h6&lt;/h6&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <blockquote>
+        <h1>Exemplo de tag h1</h1>
+        <h2>Exemplo de tag h2</h2>
+        <h3>Exemplo de tag h3</h3>
+        <h4>Exemplo de tag h4</h4>
+        <h5>Exemplo de tag h5</h5>
+        <h6>Exemplo de tag h6</h6>
+      </blockquote>
+      <hr>
+    </section>
+
+    <section id="section2" class="hidden-content">
+      <h3>Tag - p</h3>
+      <p>
+        Representa um parágrafo.
+        <br><br>
+        Exemplo:
+      </p>
+      <pre>
+        <code>
+          &lt;p&gt;Exemplo de tag p&lt;/p&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <p>Exemplo de tag p</p>
+      <hr>
+    </section>
+
+    <section id="section3" class="hidden-content">
+      <h3>Tag - mark</h3>
+      <p>
+        Usado para destacar uma cor de fundo.
+      </p>
+      <pre>
+        <code>
+          &lt;p&gt;Este é um texto de exemplo com &lt;mark&gt;destaque&lt;/mark&gt;.&lt;/p&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <p>Este é um texto de exemplo com <mark>destaque</mark>.</p>
+      <hr>
+    </section>
+
+    <section id="section4" class="hidden-content">
+      <h3>Tag - small</h3>
+      <p>
+        Reduz o tamanho da fonte do texto. Sendo utilizado para notas de rodapé, por exemplo.
+      </p>
+      <pre>
+        <code>
+          &lt;p&gt;Este é um texto de exemplo com &lt;small&gt;texto em tamanho reduzido&lt;/small&gt;.&lt;/p&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <p><small>Texto em tamanho reduzido.</small></p>
+      <hr>
+    </section>
+
+    <section id="section5" class="hidden-content">
+      <h3>Tag - i</h3>
+      <p>
+        Utilizada para colocar o texto em itálico.
+      </p>
+      <pre>
+        <code>
+          &lt;p&gt;Este é um texto de exemplo em &lt;i&gt;itálico&lt;/i&gt;.&lt;/p&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <p><i>Texto de exemplo em itálico.</i></p>
+      <hr>
+    </section>
+
+    <section id="section6" class="hidden-content">
+      <h3>Tag - u</h3>
+      <p>
+        Utilizada para sublinhar o texto.
+      </p>
+      <pre>
+        <code>
+          &lt;p&gt;Este é um texto de exemplo com &lt;u&gt;sublinhado&lt;/u&gt;.&lt;/p&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <p><u>Texto de exemplo com sublinhado.</u></p>
+      <hr>
+    </section>
+
+    <section id="section7" class="hidden-content">
+      <h3>Tag - strong</h3>
+      <p>
+        Sua função é destacar o texto com forte importância.
+      </p>
+      <pre>
+        <code>
+          &lt;p&gt;Este é um texto de exemplo com &lt;strong&gt;destaque forte&lt;/strong&gt;.&lt;/p&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <p><strong>Texto de exemplo com destaque forte.</strong></p>
+      <hr>
+    </section>
+
+    <section id="section8" class="hidden-content">
+      <h3>Tag - ol</h3>
+      <p>
+        Criar listas ordenadas (numeradas).
+      </p>
+      <pre>
+        <code>
+          &lt;ol&gt;
+            &lt;li&gt;Item 1&lt;/li&gt;
+            &lt;li&gt;Item 2&lt;/li&gt;
+            &lt;li&gt;Item 3&lt;/li&gt;
+          &lt;/ol&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ol>
+      <hr>
+    </section>
+
+    <section id="section9" class="hidden-content">
+      <h3>Tag - ul</h3>
+      <p>
+        Criar listas não ordenadas (com marcadores).
+      </p>
+      <pre>
+        <code>
+          &lt;ul&gt;
+            &lt;li&gt;Item A&lt;/li&gt;
+            &lt;li&gt;Item B&lt;/li&gt;
+            &lt;li&gt;Item C&lt;/li&gt;
+          &lt;/ul&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+      </ul>
+      <hr>
+    </section>
+
+    <section id="section10" class="hidden-content">
+      <h3>Tag - li</h3>
+      <p>
+        Utilizada para criar itens de uma lista, seja ordenada ou não ordenada.
+      </p>
+      <pre>
+        <code>
+          &lt;ul&gt;
+            &lt;li&gt;Item 1&lt;/li&gt;
+            &lt;li&gt;Item 2&lt;/li&gt;
+            &lt;li&gt;Item 3&lt;/li&gt;
+          &lt;/ul&gt;
+        </code>
+        <code>
+          &lt;ol&gt;
+            &lt;li&gt;Item A&lt;/li&gt;
+            &lt;li&gt;Item B&lt;/li&gt;
+            &lt;li&gt;Item C&lt;/li&gt;
+          &lt;/ol&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+      <ol>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+      </ol>
+      <hr>
+    </section>
+
+    <section id="section11" class="hidden-content">
+      <h3>Tag - a</h3>
+      <p>
+        Utilizada para criar links (âncoras) para outras páginas ou recursos.
+      </p>
+      <pre>
+        <code>
+          &lt;a href="https://www.exemplo.com"&gt;Link de exemplo&lt;/a&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <p><a href="https://www.exemplo.com">Link de exemplo</a></p>
+      <hr>
+    </section>
+
+    <section id="section12" class="hidden-content">
+      <h3>Tag - hr</h3>
+      <p>
+        Utilizada para criar uma linha horizontal que divide o conteúdo.
+      </p>
+      <pre>
+        <code>
+          &lt;p&gt;Texto acima&lt;/p&gt;
+          &lt;hr&gt;
+          &lt;p&gt;Texto abaixo&lt;/p&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <p>Texto acima</p>
+      <hr>
+      <p>Texto abaixo</p>
+      <hr>
+    </section>
+
+    <section id="section13" class="hidden-content">
+      <h3>Tag - sub</h3>
+      <p>
+        Utilizada para colocar o texto em subscrito (abaixo da linha de base).
+      </p>
+      <pre>
+        <code>
+          &lt;p&gt;Texto &lt;sub&gt;subscrito&lt;/sub&gt;.&lt;/p&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <p>Texto <sub>subscrito</sub>.</p>
+      <hr>
+    </section>
+
+    <section id="section14" class="hidden-content">
+      <h3>Tag - sup</h3>
+      <p>
+        Utilizada para colocar o texto em sobrescrito (acima da linha de base).
+      </p>
+      <pre>
+        <code>
+          &lt;p&gt;Texto &lt;sup&gt;sobrescrito&lt;/sup&gt;.&lt;/p&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <p>Texto <sup>sobrescrito</sup>.</p>
+      <hr>
+    </section>
+
+    <section id="section15" class="hidden-content">
+      <h3>Tag - blockquote</h3>
+      <p>
+        Utilizada para citar um trecho de texto de outra fonte.
+      </p>
+      <pre>
+        <code>
+          &lt;blockquote&gt;
+            &lt;p&gt;Este é um exemplo de citação.&lt;/p&gt;
+          &lt;/blockquote&gt;
+        </code>
+      </pre>
+      <h3>Resultado abaixo:</h3>
+      <blockquote>
+        <p>Este é um exemplo de citação.</p>
+      </blockquote>
+      <hr>
+    </section>
+
+  </main>
+
+  <footer>
+    <a href="https://github.com/MuriloSchali" target="_blank">
+      <img src="assets/img/github.png" alt="GitHub" />
+    </a>
+  </footer>
+
+  <script>
+    function toggleSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      section.classList.toggle('hidden-content');
+    }
+  </script>
+</body>
+</html>
