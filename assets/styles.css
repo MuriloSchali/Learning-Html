@@ -1,4 +1,4 @@
-body {
+  body {
     background-image: url("../assets/img/fundo.png");
   }
   
@@ -71,4 +71,8 @@ body {
     font-style: italic;
     padding-left: 20px;
     border-left: 5px solid white;
+  }
+
+  a {
+    color: #2DF86D;
   }
